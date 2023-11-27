@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    float: right;<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <title>geo</title>
+  </head>
+  <body>
+    <h1>Calculate Current Age</h1>
+    <p>Enter your date of birth:</p>
+    <input type="date" id="dob">
+    <br><br>
+    <button onclick="calculateAge()">Calculate Age</button>
+    <p>Your age is: <span id="age"></span></p>
+    <script>
+      function calculateAge() {
+        const dateInput = document.getElementById("dob").value;
+        const dob = new Date(dateInput).getFullYear();
+        const now = new Date().getFullYear();
+        const age = now – dob;
+        document.getElementById("age").innerHTML = age;
+      }
+    </script>
+  
+  </body>
+</html>
+
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <title>geo</title>
+  </head>
+  <body>
+    <h1>Calculate Current Age</h1>
+    <p>Enter your date of birth:</p>
+    <input type="date" id="dob">
+    <br><br>
+    <button onclick="calculateAge()">Calculate Age</button>
+    <p>Your age is: <span id="age"></span></p>
+    <script>
+      function calculateAge() {
+        const dateInput = document.getElementById("dob").value;
+        const dob = new Date(dateInput).getFullYear();
+        const now = new Date().getFullYear();
+        const age = now – dob;
+        document.getElementById("age").innerHTML = age;
+      }
+    </script>
+  
+  </body>
+</html>
+
+
+</body>
+</html>
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #ccc;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  section a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  section a:hover {
+    background-color: #ccc;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .ad {
+    width: 40%;
+    height: 40px;
+    margin: 0 auto;
+  }
+  .img{
+    width: 40px;
+    height: 40px;
+  }
+  
